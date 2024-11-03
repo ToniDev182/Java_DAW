@@ -1,0 +1,20 @@
+vamos a crear un programa que me gestione citas medicas.
+
+- Pacientes(Dni, nombre, apellidos, telefono)
+- Medicos (Dni, nombre, apellidos, codiConsulta)
+- citas (idPaciente, idMedico, fecha, hora);
+
+dado un id de paciente y una fecha, ¿en que consulta será atendido?
+
+cancelar una cita, para ello necesito id paciente, fecha, hora. 
+
+escritura fichero de texto "metodo imprimmir cita" 
+	- crear un fichero de texto  /ficheros/"nombre_fichero.txt")
+- el nombre del fichero tiene que estar formado por el idpaciente_fecha.txt 
+- el documento tiene queponer en la primera linea "citas para el paciente con id : idPaciente , para el dia: Fecha, hora, codConsulta.
+
+
+lectura num_citas ("nombre_fichero.txt)
+
+- numero de citas para un dia un paciente
+

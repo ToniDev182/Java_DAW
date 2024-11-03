@@ -1,0 +1,45 @@
+Ejercicio a resolver:
+
+Queremos desarrollar en Java un programa que nos permita gestionar los vuelos de un aeropuerto. Para ello tenemos que tratar los datos siguientes:
+
+(1 punto) Avión: un avión estará definido por:
+
+⚫ código de avión: debe ser único
+
+* compañía: máximo 40 caracteres
+
+tipo: máximo 20 caracteres
+
+número de pasajeros
+
+⚫ (1 punto) Vuelo: un vuelo estará definido por:
+
+⚫ código de vuelo: debe de ser único
+
+⚫ código de avión
+
+* fecha: los vuelos deben estar ordenados por este campo
+
+ciudad de origen: máximo 20 caracteres
+
+⚫ ciudad destino: máximo 20 carácteres
+
+Se debe gestionar desde el programa principal lo siguiente:
+
+(2 puntos) Para los aviones: Añadir un avión, buscar un avión dado su código, modificar avión y listar todos los aviones
+
+⚫ (2 puntos) Para los vuelos: Añadir un vuelo, modificar un vuelo, lista de todos los vuelos y lista de todos los vuelos en una fecha concreta
+
+(2,5 puntos) Los datos de los aviones deberán estar almacenados en un fichero de acceso directo mientras que los datos de los vuelos estarán en un fichero de acceso secuencial. Estos datos se leerán al acceder al programa y se escribirán en el fichero cuando finalice.
+
+Realiza la aplicación que da solución al problema propuesto.
+
+Notas importantes:
+
+* Elige para los vuelos la colección más idónea. (0.5 puntos)
+
+* Antes de añadir un vuele, el vuele debe estar ya creado, ya que debemos elegir un avión entre los existentes. (0.5 puntos)
+
+* Algo que resulta muy útil es elegir el código de avión por el orden de llegada al sistema, así su búsqueda se podrá agilizar (0.5 puntos)
+
+* Usa este formato para la fecha y te ayudará con el orden "aaaa/mm/dd" cronológico, y ten en cuenta que no puede haber duplicados con igual "fecha, código avión y ciudad de origen".

@@ -1,0 +1,25 @@
+Queremos desarrollar en Java un programa que nos permita gestionar los alumnos de una academia que imparte diferentes cursos. Para ello tenemos que tratar los datos siguientes:
+
+Persona: una persona estará definida por:
+
+id: debe ser único y además incrementarse para cada nueva persona
+apellidos: máximo 40 caracteres
+nombre: máximo 20 caracteres
+dni: debe ser único, no se puede repetir
+dirección: máximo 255 caracteres
+Curso: un curso estará definido por:
+
+nombre: máximo 20 caracteres
+calificaciones para 2 evaluaciones: eval1 y eval2
+Alumno: es una persona y además debe de tener una colección de cursos en los que se matricula.
+
+Grupo de alumnos: será una colección de alumnos
+
+Se debe gestionar desde el programa principal lo siguiente:
+Para los alumnos: Añadir un alumno, mostrar el alumno dado un id y borrar un alumno
+Diferentes listados: Mostrar todos los alumnos por orden alfabético, mostrar todos los alumnos que tengan todo aprobado, mostrar todos los alumnos matriculados en un curso en concreto
+Se deben guardar los datos de los alumnos en un fichero de bytes cuando el programa acaba y leer desde el fichero cuando el programa arranca
+Notas importantes:
+Elige las colecciones más apropiadas para cada clase
+En la entrada de datos, captura las posibles excepciones que se puedan producir.
+La primera vez que se ejecuta el programa, ten en cuenta que el fichero con los datos de los alumnos no existe o está vacío, por lo que la lectura de datos no es posible, se debe, por tanto, comprobar si el fichero está vacío o no en los métodos correspondientes.
